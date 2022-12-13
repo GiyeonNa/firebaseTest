@@ -18,7 +18,7 @@ public class LoginSystem : MonoBehaviour
 
     public void OnChangedState(bool sign)
     {
-        outputText.text = sign ? "로그인 : " : "로그아웃 : ";
+        outputText.text = sign ? "Login : " : "LogOut : ";
         outputText.text += AuthManager.Instance.UserId;
     }
 
